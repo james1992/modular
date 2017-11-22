@@ -6,8 +6,8 @@ body {
 
 section section {
   background-color:aqua;
-  width: 14rem;
-  height: 25rem;
+  width: 13rem;
+  height: 28rem;
   display:inline-block;
   vertical-align: top;
   margin-left: .5rem;
@@ -16,8 +16,8 @@ section section {
 }
 
 section section img {
-  height: 9.4em;
-  width: 6.8em;
+  height: 13.4em;
+  width: 8.8em;
   margin: 0;
   padding: 0;
 }
@@ -34,6 +34,7 @@ ul {
 .checked {
     color: orange;
 }
+
 button {
   margin-top: 1em
 }
@@ -55,4 +56,22 @@ li.bg-yellow .fa-circle {
 }
 li.bg-red .fa-circle {
   color: red;
+}
+
+h3, h5, p {
+  margin: 0;
+  font-size: 1.25em;
+}
+p:hover, h3:hover {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.price, .rating {
+  margin-top: .75em;
+}
+button {
+  margin-top: 1.5em;
 }
