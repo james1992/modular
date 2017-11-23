@@ -1,8 +1,20 @@
+/*
+  Center all of the content and add white space to edges
+*/
+
 body {
   margin:auto;
   width: 70%;
   text-align: center;
 }
+header {
+  margin-bottom: 1rem;
+}
+
+/*
+  Format for the modular sections, set the height and width
+  alignment and margins
+*/
 
 section section {
   width: 13rem;
@@ -21,6 +33,11 @@ section section img {
   padding: 0;
 }
 
+/*
+  Set the format for the ratings stars, color and 
+  padding.
+*/
+
 li {
   display: inline;
   padding: .25em;
@@ -34,9 +51,9 @@ ul {
     color: orange;
 }
 
-button {
-  margin-top: 1em
-}
+/*
+  Set the color for the swatches that change image colors
+*/
 
 li.bg-black .fa-circle {
   color: black;
@@ -69,16 +86,13 @@ li.bg-purple .fa-circle {
   color: purple;
 }
 
+/*
+  Format the margins for the conent within the modular sections
+*/
+
 h3, h5, p {
   margin: 0;
   font-size: 1.25em;
-}
-section p:hover, section h3:hover {
-  text-decoration: underline;
-}
-a {
-  text-decoration: none;
-  color: black;
 }
 .price, .rating {
   margin-top: .75em;
@@ -86,6 +100,16 @@ a {
 button {
   margin-top: 1.5em;
 }
-header {
-  margin-bottom: 1rem;
+
+/*
+  Format the text decoration for the text with links
+*/
+
+section p:hover, section h3:hover {
+  text-decoration: underline;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+
