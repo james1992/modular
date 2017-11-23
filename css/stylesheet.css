@@ -5,7 +5,6 @@ body {
 }
 
 section section {
-  background-color:aqua;
   width: 13rem;
   height: 28rem;
   display:inline-block;
@@ -57,12 +56,24 @@ li.bg-yellow .fa-circle {
 li.bg-red .fa-circle {
   color: red;
 }
+li.bg-white .fa-circle {
+  color: white;
+}
+li.bg-maroon .fa-circle {
+  color: maroon;
+}
+li.bg-orange .fa-circle {
+  color: orange;
+}
+li.bg-purple .fa-circle {
+  color: purple;
+}
 
 h3, h5, p {
   margin: 0;
   font-size: 1.25em;
 }
-p:hover, h3:hover {
+section p:hover, section h3:hover {
   text-decoration: underline;
 }
 a {
@@ -74,4 +85,7 @@ a {
 }
 button {
   margin-top: 1.5em;
+}
+header {
+  margin-bottom: 1rem;
 }
